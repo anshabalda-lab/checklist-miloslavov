@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Дизайн дому Милославів — дашборд побажання від замовника</title>
+<title>Дизайн Дом Милославов — дашборд пожеланий</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -30,8 +30,7 @@
   .bar{flex:1;height:6px;background:var(--line);position:relative;}
   .bar-fill{position:absolute;left:0;top:0;bottom:0;background:var(--ink);width:0%;transition:width .3s;}
   .progress-num{font-size:13px;font-weight:600;white-space:nowrap;}
-  nav.jump{display:flex;gap:6px;overflow-x:auto;padding:14px 0 2px;margin:0 -2px;scrollbar-width:none;}
-  nav.jump::-webkit-scrollbar{display:none;}
+  nav.jump{display:flex;flex-wrap:wrap;gap:6px;padding:14px 0 2px;}
   nav.jump a{flex-shrink:0;font-size:12px;padding:6px 12px;border:1px solid var(--line);color:var(--ink);text-decoration:none;white-space:nowrap;background:var(--card);}
   nav.jump a:hover{border-color:var(--ink);}
   section.room{margin-top:44px;}
@@ -76,7 +75,7 @@
 <div class="wrap">
 
 <header class="top">
-  <div class="brand"><span class="mark"></span> FORM.A dsgn — Дизайн дому в Милославові</div>
+  <div class="brand"><span class="mark"></span> FORM.A dsgn — Дизайн Дом Милославов</div>
   <h1>Дашборд пожеланий</h1>
   <p class="sub">Собрано из переписки в группе. Отметьте, что подтверждаете — я использую это как финальную версию.</p>
   <div class="progress-row">
@@ -101,7 +100,7 @@
 
 <footer class="export">
   <h2>Сводка для отправки</h2>
-  <p>Собрать все комментарии в один текст, чтобы отправить в чат TELEGRAM.</p>
+  <p>Собрать все её комментарии в один текст, чтобы отправить Анастасии в чат.</p>
   <div class="exp-actions">
     <button class="primary" id="buildExport">Собрать сводку</button>
     <button class="primary" id="copyExport" style="display:none;">Скопировать</button>
